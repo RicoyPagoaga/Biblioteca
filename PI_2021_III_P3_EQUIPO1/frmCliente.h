@@ -1,4 +1,5 @@
 #pragma once
+#include "frmListaCliente.h"
 
 namespace PI2021IIIP3EQUIPO1 {
 
@@ -269,9 +270,10 @@ namespace PI2021IIIP3EQUIPO1 {
 			this->btnMostrarCliente->Name = L"btnMostrarCliente";
 			this->btnMostrarCliente->Size = System::Drawing::Size(152, 53);
 			this->btnMostrarCliente->TabIndex = 13;
-			this->btnMostrarCliente->Text = L"Mostrar Cliente";
+			this->btnMostrarCliente->Text = L"Mostrar";
 			this->btnMostrarCliente->TextImageRelation = System::Windows::Forms::TextImageRelation::ImageBeforeText;
 			this->btnMostrarCliente->UseVisualStyleBackColor = false;
+			this->btnMostrarCliente->Click += gcnew System::EventHandler(this, &frmCliente::btnMostrarCliente_Click);
 			// 
 			// lblNom
 			// 
@@ -460,8 +462,7 @@ namespace PI2021IIIP3EQUIPO1 {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(192)),
-				static_cast<System::Int32>(static_cast<System::Byte>(192)));
+			this->BackColor = System::Drawing::Color::Teal;
 			this->ClientSize = System::Drawing::Size(738, 657);
 			this->Controls->Add(this->txtCorreoCliente);
 			this->Controls->Add(this->pictureBox6);
@@ -513,6 +514,8 @@ namespace PI2021IIIP3EQUIPO1 {
 		}
 #pragma endregion
 	private: System::Void btnMostrarCliente_Click(System::Object^ sender, System::EventArgs^ e) {
+		frmListaCliente^ listaCliente = gcnew frmListaCliente;
+		listaCliente->Show();
 	}
 };
 }

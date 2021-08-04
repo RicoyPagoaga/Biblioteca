@@ -130,12 +130,15 @@
     <ClCompile Include="frmInicio.cpp" />
     <ClCompile Include="frmLibro.cpp" />
     <ClCompile Include="frmLibrosEstante.cpp" />
+    <ClCompile Include="frmListaCliente.cpp" />
     <ClCompile Include="frmListaLibros.cpp" />
+    <ClCompile Include="frmListaPersona.cpp" />
     <ClCompile Include="frmPersona.cpp" />
     <ClCompile Include="frmSalaComputo.cpp" />
     <ClCompile Include="frmSucursal.cpp" />
     <ClCompile Include="Libro.cpp" />
     <ClCompile Include="Persona.cpp" />
+    <ClCompile Include="Usuario.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cliente.h" />
@@ -160,7 +163,13 @@
     <ClInclude Include="frmLibrosEstante.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="frmListaCliente.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="frmListaLibros.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmListaPersona.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="frmPersona.h">
@@ -174,6 +183,7 @@
     </ClInclude>
     <ClInclude Include="Libro.h" />
     <ClInclude Include="Persona.h" />
+    <ClInclude Include="Usuario.h" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="frmBiblioteca.resx">
@@ -197,8 +207,14 @@
     <EmbeddedResource Include="frmLibrosEstante.resx">
       <DependentUpon>frmLibrosEstante.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmListaCliente.resx">
+      <DependentUpon>frmListaCliente.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmListaLibros.resx">
       <DependentUpon>frmListaLibros.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListaPersona.resx">
+      <DependentUpon>frmListaPersona.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPersona.resx">
       <DependentUpon>frmPersona.h</DependentUpon>
