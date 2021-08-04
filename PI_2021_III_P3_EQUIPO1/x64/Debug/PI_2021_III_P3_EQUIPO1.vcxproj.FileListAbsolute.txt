@@ -17,3 +17,4 @@ C:\Users\Usuario\source\repos\Biblioteca\PI_2021_III_P3_EQUIPO1\x64\Debug\PI2021
 C:\Users\Usuario\source\repos\Biblioteca\PI_2021_III_P3_EQUIPO1\x64\Debug\PI2021IIIP3EQUIPO1.frmEstante.resources
 C:\Users\Usuario\source\repos\Biblioteca\PI_2021_III_P3_EQUIPO1\x64\Debug\PI2021IIIP3EQUIPO1.frmLibrosEstante.resources
 C:\Users\Usuario\source\repos\Biblioteca\PI_2021_III_P3_EQUIPO1\x64\Debug\PI2021IIIP3EQUIPO1.frmSucursal.resources
+C:\Users\Usuario\source\repos\Biblioteca\PI_2021_III_P3_EQUIPO1\x64\Debug\PI2021IIIP3EQUIPO1.frmInicio.resources

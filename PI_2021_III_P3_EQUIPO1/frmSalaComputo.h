@@ -53,9 +53,11 @@ namespace PI2021IIIP3EQUIPO1 {
 	private: System::Windows::Forms::TextBox^ textBox7;
 	private: System::Windows::Forms::TextBox^ textBox8;
 	private: System::Windows::Forms::Button^ button1;
-	private: System::Windows::Forms::ComboBox^ comboBox1;
+	private: System::Windows::Forms::ComboBox^ cboId;
+
 	private: System::Windows::Forms::Label^ lblCliente;
-	private: System::Windows::Forms::ComboBox^ comboBox2;
+	private: System::Windows::Forms::ComboBox^ cboCliente;
+
 
 	private:
 		/// <summary>
@@ -88,9 +90,9 @@ namespace PI2021IIIP3EQUIPO1 {
 			this->textBox7 = (gcnew System::Windows::Forms::TextBox());
 			this->textBox8 = (gcnew System::Windows::Forms::TextBox());
 			this->button1 = (gcnew System::Windows::Forms::Button());
-			this->comboBox1 = (gcnew System::Windows::Forms::ComboBox());
+			this->cboId = (gcnew System::Windows::Forms::ComboBox());
 			this->lblCliente = (gcnew System::Windows::Forms::Label());
-			this->comboBox2 = (gcnew System::Windows::Forms::ComboBox());
+			this->cboCliente = (gcnew System::Windows::Forms::ComboBox());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
 			// 
@@ -249,13 +251,13 @@ namespace PI2021IIIP3EQUIPO1 {
 			this->button1->Text = L"Registrar Visita";
 			this->button1->UseVisualStyleBackColor = true;
 			// 
-			// comboBox1
+			// cboId
 			// 
-			this->comboBox1->FormattingEnabled = true;
-			this->comboBox1->Location = System::Drawing::Point(195, 38);
-			this->comboBox1->Name = L"comboBox1";
-			this->comboBox1->Size = System::Drawing::Size(110, 21);
-			this->comboBox1->TabIndex = 18;
+			this->cboId->FormattingEnabled = true;
+			this->cboId->Location = System::Drawing::Point(195, 38);
+			this->cboId->Name = L"cboId";
+			this->cboId->Size = System::Drawing::Size(110, 21);
+			this->cboId->TabIndex = 18;
 			// 
 			// lblCliente
 			// 
@@ -268,13 +270,13 @@ namespace PI2021IIIP3EQUIPO1 {
 			this->lblCliente->TabIndex = 19;
 			this->lblCliente->Text = L"Cliente:";
 			// 
-			// comboBox2
+			// cboCliente
 			// 
-			this->comboBox2->FormattingEnabled = true;
-			this->comboBox2->Location = System::Drawing::Point(196, 70);
-			this->comboBox2->Name = L"comboBox2";
-			this->comboBox2->Size = System::Drawing::Size(109, 21);
-			this->comboBox2->TabIndex = 20;
+			this->cboCliente->FormattingEnabled = true;
+			this->cboCliente->Location = System::Drawing::Point(196, 70);
+			this->cboCliente->Name = L"cboCliente";
+			this->cboCliente->Size = System::Drawing::Size(109, 21);
+			this->cboCliente->TabIndex = 20;
 			// 
 			// frmSalaComputo
 			// 
@@ -282,9 +284,9 @@ namespace PI2021IIIP3EQUIPO1 {
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::Color::DarkCyan;
 			this->ClientSize = System::Drawing::Size(665, 412);
-			this->Controls->Add(this->comboBox2);
+			this->Controls->Add(this->cboCliente);
 			this->Controls->Add(this->lblCliente);
-			this->Controls->Add(this->comboBox1);
+			this->Controls->Add(this->cboId);
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->textBox8);
 			this->Controls->Add(this->textBox7);

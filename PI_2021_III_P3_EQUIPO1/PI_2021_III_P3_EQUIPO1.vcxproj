@@ -127,6 +127,7 @@
     <ClCompile Include="frmCliente.cpp" />
     <ClCompile Include="frmComputadora.cpp" />
     <ClCompile Include="frmEstante.cpp" />
+    <ClCompile Include="frmInicio.cpp" />
     <ClCompile Include="frmLibro.cpp" />
     <ClCompile Include="frmLibrosEstante.cpp" />
     <ClCompile Include="frmListaLibros.cpp" />
@@ -148,6 +149,9 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="frmEstante.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmInicio.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="frmLibro.h">
@@ -183,6 +187,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmEstante.resx">
       <DependentUpon>frmEstante.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInicio.resx">
+      <DependentUpon>frmInicio.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLibro.resx">
       <DependentUpon>frmLibro.h</DependentUpon>

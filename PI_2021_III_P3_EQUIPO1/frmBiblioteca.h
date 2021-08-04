@@ -148,10 +148,9 @@ namespace PI2021IIIP3EQUIPO1 {
 			this->btnEstantes->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			this->btnEstantes->Location = System::Drawing::Point(515, 86);
 			this->btnEstantes->Name = L"btnEstantes";
-			this->btnEstantes->Size = System::Drawing::Size(108, 47);
+			this->btnEstantes->Size = System::Drawing::Size(164, 47);
 			this->btnEstantes->TabIndex = 3;
 			this->btnEstantes->Text = L"Estante";
-			this->btnEstantes->TextAlign = System::Drawing::ContentAlignment::MiddleRight;
 			this->btnEstantes->UseVisualStyleBackColor = false;
 			this->btnEstantes->Click += gcnew System::EventHandler(this, &frmBiblioteca::btnEstantes_Click);
 			// 
@@ -167,10 +166,9 @@ namespace PI2021IIIP3EQUIPO1 {
 			this->btnComputadora->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			this->btnComputadora->Location = System::Drawing::Point(515, 139);
 			this->btnComputadora->Name = L"btnComputadora";
-			this->btnComputadora->Size = System::Drawing::Size(138, 49);
+			this->btnComputadora->Size = System::Drawing::Size(164, 49);
 			this->btnComputadora->TabIndex = 4;
 			this->btnComputadora->Text = L"Computadora";
-			this->btnComputadora->TextAlign = System::Drawing::ContentAlignment::MiddleRight;
 			this->btnComputadora->UseVisualStyleBackColor = false;
 			this->btnComputadora->Click += gcnew System::EventHandler(this, &frmBiblioteca::btnComputadora_Click);
 			// 
@@ -205,10 +203,9 @@ namespace PI2021IIIP3EQUIPO1 {
 			this->btnSucursal->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			this->btnSucursal->Location = System::Drawing::Point(515, 247);
 			this->btnSucursal->Name = L"btnSucursal";
-			this->btnSucursal->Size = System::Drawing::Size(108, 47);
+			this->btnSucursal->Size = System::Drawing::Size(164, 47);
 			this->btnSucursal->TabIndex = 6;
 			this->btnSucursal->Text = L"Sucursal";
-			this->btnSucursal->TextAlign = System::Drawing::ContentAlignment::MiddleRight;
 			this->btnSucursal->UseVisualStyleBackColor = false;
 			this->btnSucursal->Click += gcnew System::EventHandler(this, &frmBiblioteca::btnSucursal_Click);
 			// 
