@@ -1,4 +1,5 @@
 #pragma once
+#include "frmListaPersona.h"
 
 namespace PI2021IIIP3EQUIPO1 {
 
@@ -375,6 +376,7 @@ namespace PI2021IIIP3EQUIPO1 {
 			this->btnMostrarPersona->TabIndex = 27;
 			this->btnMostrarPersona->Text = L"Mostrar";
 			this->btnMostrarPersona->UseVisualStyleBackColor = false;
+			this->btnMostrarPersona->Click += gcnew System::EventHandler(this, &frmPersona::btnMostrarPersona_Click);
 			// 
 			// pictureBox5
 			// 
@@ -497,5 +499,9 @@ namespace PI2021IIIP3EQUIPO1 {
 
 		}
 #pragma endregion
-	};
+	private: System::Void btnMostrarPersona_Click(System::Object^ sender, System::EventArgs^ e) {
+		frmListaPersona^ listaPersona = gcnew frmListaPersona;
+		listaPersona->Show();
+	}
+};
 }

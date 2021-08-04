@@ -89,12 +89,12 @@ namespace PI2021IIIP3EQUIPO1 {
 				static_cast<System::Byte>(0)));
 			this->btnPersona->ForeColor = System::Drawing::SystemColors::ControlText;
 			this->btnPersona->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"btnPersona.Image")));
-			this->btnPersona->Location = System::Drawing::Point(137, 95);
+			this->btnPersona->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->btnPersona->Location = System::Drawing::Point(248, 86);
 			this->btnPersona->Name = L"btnPersona";
-			this->btnPersona->Size = System::Drawing::Size(95, 47);
+			this->btnPersona->Size = System::Drawing::Size(164, 47);
 			this->btnPersona->TabIndex = 0;
 			this->btnPersona->Text = L"Persona";
-			this->btnPersona->TextImageRelation = System::Windows::Forms::TextImageRelation::ImageBeforeText;
 			this->btnPersona->UseVisualStyleBackColor = false;
 			this->btnPersona->Click += gcnew System::EventHandler(this, &frmBiblioteca::btnPersona_Click);
 			// 
@@ -108,12 +108,12 @@ namespace PI2021IIIP3EQUIPO1 {
 				static_cast<System::Byte>(0)));
 			this->btnCliente->ForeColor = System::Drawing::SystemColors::Desktop;
 			this->btnCliente->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"btnCliente.Image")));
-			this->btnCliente->Location = System::Drawing::Point(137, 148);
+			this->btnCliente->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->btnCliente->Location = System::Drawing::Point(248, 140);
 			this->btnCliente->Name = L"btnCliente";
-			this->btnCliente->Size = System::Drawing::Size(95, 49);
+			this->btnCliente->Size = System::Drawing::Size(164, 47);
 			this->btnCliente->TabIndex = 1;
 			this->btnCliente->Text = L"Cliente";
-			this->btnCliente->TextImageRelation = System::Windows::Forms::TextImageRelation::ImageBeforeText;
 			this->btnCliente->UseVisualStyleBackColor = false;
 			this->btnCliente->Click += gcnew System::EventHandler(this, &frmBiblioteca::btnCliente_Click);
 			// 
@@ -127,12 +127,12 @@ namespace PI2021IIIP3EQUIPO1 {
 				static_cast<System::Byte>(0)));
 			this->btnLibro->ForeColor = System::Drawing::SystemColors::Desktop;
 			this->btnLibro->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"btnLibro.Image")));
-			this->btnLibro->Location = System::Drawing::Point(137, 203);
+			this->btnLibro->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->btnLibro->Location = System::Drawing::Point(248, 193);
 			this->btnLibro->Name = L"btnLibro";
-			this->btnLibro->Size = System::Drawing::Size(95, 47);
+			this->btnLibro->Size = System::Drawing::Size(164, 47);
 			this->btnLibro->TabIndex = 2;
 			this->btnLibro->Text = L"Libros";
-			this->btnLibro->TextImageRelation = System::Windows::Forms::TextImageRelation::ImageBeforeText;
 			this->btnLibro->UseVisualStyleBackColor = false;
 			this->btnLibro->Click += gcnew System::EventHandler(this, &frmBiblioteca::btnLibro_Click);
 			// 
@@ -164,9 +164,9 @@ namespace PI2021IIIP3EQUIPO1 {
 				static_cast<System::Byte>(0)));
 			this->btnComputadora->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"btnComputadora.Image")));
 			this->btnComputadora->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->btnComputadora->Location = System::Drawing::Point(515, 139);
+			this->btnComputadora->Location = System::Drawing::Point(515, 193);
 			this->btnComputadora->Name = L"btnComputadora";
-			this->btnComputadora->Size = System::Drawing::Size(164, 49);
+			this->btnComputadora->Size = System::Drawing::Size(164, 47);
 			this->btnComputadora->TabIndex = 4;
 			this->btnComputadora->Text = L"Computadora";
 			this->btnComputadora->UseVisualStyleBackColor = false;
@@ -182,7 +182,7 @@ namespace PI2021IIIP3EQUIPO1 {
 				static_cast<System::Byte>(0)));
 			this->btnComputo->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"btnComputo.Image")));
 			this->btnComputo->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->btnComputo->Location = System::Drawing::Point(515, 194);
+			this->btnComputo->Location = System::Drawing::Point(515, 248);
 			this->btnComputo->Name = L"btnComputo";
 			this->btnComputo->Size = System::Drawing::Size(164, 47);
 			this->btnComputo->TabIndex = 5;
@@ -201,7 +201,7 @@ namespace PI2021IIIP3EQUIPO1 {
 				static_cast<System::Byte>(0)));
 			this->btnSucursal->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"btnSucursal.Image")));
 			this->btnSucursal->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->btnSucursal->Location = System::Drawing::Point(515, 247);
+			this->btnSucursal->Location = System::Drawing::Point(515, 139);
 			this->btnSucursal->Name = L"btnSucursal";
 			this->btnSucursal->Size = System::Drawing::Size(164, 47);
 			this->btnSucursal->TabIndex = 6;

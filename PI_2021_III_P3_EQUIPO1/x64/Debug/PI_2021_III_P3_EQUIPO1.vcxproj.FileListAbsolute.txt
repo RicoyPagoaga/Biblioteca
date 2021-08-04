@@ -18,3 +18,18 @@ C:\Users\Usuario\source\repos\Biblioteca\PI_2021_III_P3_EQUIPO1\x64\Debug\PI2021
 C:\Users\Usuario\source\repos\Biblioteca\PI_2021_III_P3_EQUIPO1\x64\Debug\PI2021IIIP3EQUIPO1.frmLibrosEstante.resources
 C:\Users\Usuario\source\repos\Biblioteca\PI_2021_III_P3_EQUIPO1\x64\Debug\PI2021IIIP3EQUIPO1.frmSucursal.resources
 C:\Users\Usuario\source\repos\Biblioteca\PI_2021_III_P3_EQUIPO1\x64\Debug\PI2021IIIP3EQUIPO1.frmInicio.resources
+C:\Users\elvir\Desktop\Proyecto 3\Biblioteca\PI_2021_III_P3_EQUIPO1\x64\Debug\PI_2021_III_P3_EQUIPO1.vcxproj.AssemblyReference.cache
+C:\Users\elvir\Desktop\Proyecto 3\Biblioteca\PI_2021_III_P3_EQUIPO1\x64\Debug\PI2021IIIP3EQUIPO1.frmBiblioteca.resources
+C:\Users\elvir\Desktop\Proyecto 3\Biblioteca\PI_2021_III_P3_EQUIPO1\x64\Debug\PI2021IIIP3EQUIPO1.frmCliente.resources
+C:\Users\elvir\Desktop\Proyecto 3\Biblioteca\PI_2021_III_P3_EQUIPO1\x64\Debug\PI2021IIIP3EQUIPO1.frmComputadora.resources
+C:\Users\elvir\Desktop\Proyecto 3\Biblioteca\PI_2021_III_P3_EQUIPO1\x64\Debug\PI2021IIIP3EQUIPO1.frmEstante.resources
+C:\Users\elvir\Desktop\Proyecto 3\Biblioteca\PI_2021_III_P3_EQUIPO1\x64\Debug\PI2021IIIP3EQUIPO1.frmInicio.resources
+C:\Users\elvir\Desktop\Proyecto 3\Biblioteca\PI_2021_III_P3_EQUIPO1\x64\Debug\PI2021IIIP3EQUIPO1.frmLibro.resources
+C:\Users\elvir\Desktop\Proyecto 3\Biblioteca\PI_2021_III_P3_EQUIPO1\x64\Debug\PI2021IIIP3EQUIPO1.frmLibrosEstante.resources
+C:\Users\elvir\Desktop\Proyecto 3\Biblioteca\PI_2021_III_P3_EQUIPO1\x64\Debug\PI2021IIIP3EQUIPO1.frmListaLibros.resources
+C:\Users\elvir\Desktop\Proyecto 3\Biblioteca\PI_2021_III_P3_EQUIPO1\x64\Debug\PI2021IIIP3EQUIPO1.frmPersona.resources
+C:\Users\elvir\Desktop\Proyecto 3\Biblioteca\PI_2021_III_P3_EQUIPO1\x64\Debug\PI2021IIIP3EQUIPO1.frmSalaComputo.resources
+C:\Users\elvir\Desktop\Proyecto 3\Biblioteca\PI_2021_III_P3_EQUIPO1\x64\Debug\PI2021IIIP3EQUIPO1.frmSucursal.resources
+C:\Users\elvir\Desktop\Proyecto 3\Biblioteca\PI_2021_III_P3_EQUIPO1\x64\Debug\PI_2021_III_P3_EQUIPO1.vcxproj.GenerateResource.cache
+C:\Users\elvir\Desktop\Proyecto 3\Biblioteca\PI_2021_III_P3_EQUIPO1\x64\Debug\PI2021IIIP3EQUIPO1.frmListaCliente.resources
+C:\Users\elvir\Desktop\Proyecto 3\Biblioteca\PI_2021_III_P3_EQUIPO1\x64\Debug\PI2021IIIP3EQUIPO1.frmListaPersona.resources
