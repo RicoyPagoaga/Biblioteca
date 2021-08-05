@@ -6,7 +6,10 @@
 #include "frmSalaComputo.h"
 #include "frmComputadora.h"
 #include "frmEstante.h"
-
+#include "frmDaño.h"
+#include "frmPrestamo.h"
+#include "frmEmpleado.h"
+#include "frmFactura.h"
 
 
 namespace PI2021IIIP3EQUIPO1 {
@@ -53,6 +56,10 @@ namespace PI2021IIIP3EQUIPO1 {
 
 	private: System::Windows::Forms::Button^ btnComputo;
 	private: System::Windows::Forms::Button^ btnSucursal;
+	private: System::Windows::Forms::Button^ btnDaño;
+	private: System::Windows::Forms::Button^ btnFactura;
+	private: System::Windows::Forms::Button^ btnEmpleado;
+	private: System::Windows::Forms::Button^ btnPrestamo;
 
 
 
@@ -77,6 +84,10 @@ namespace PI2021IIIP3EQUIPO1 {
 			this->btnComputadora = (gcnew System::Windows::Forms::Button());
 			this->btnComputo = (gcnew System::Windows::Forms::Button());
 			this->btnSucursal = (gcnew System::Windows::Forms::Button());
+			this->btnDaño = (gcnew System::Windows::Forms::Button());
+			this->btnFactura = (gcnew System::Windows::Forms::Button());
+			this->btnEmpleado = (gcnew System::Windows::Forms::Button());
+			this->btnPrestamo = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
 			// 
 			// btnPersona
@@ -209,6 +220,82 @@ namespace PI2021IIIP3EQUIPO1 {
 			this->btnSucursal->UseVisualStyleBackColor = false;
 			this->btnSucursal->Click += gcnew System::EventHandler(this, &frmBiblioteca::btnSucursal_Click);
 			// 
+			// btnDaño
+			// 
+			this->btnDaño->BackColor = System::Drawing::Color::LightSalmon;
+			this->btnDaño->FlatAppearance->BorderColor = System::Drawing::Color::Maroon;
+			this->btnDaño->FlatAppearance->BorderSize = 2;
+			this->btnDaño->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->btnDaño->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->btnDaño->ForeColor = System::Drawing::SystemColors::ControlText;
+			this->btnDaño->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"btnDaño.Image")));
+			this->btnDaño->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->btnDaño->Location = System::Drawing::Point(754, 86);
+			this->btnDaño->Name = L"btnDaño";
+			this->btnDaño->Size = System::Drawing::Size(164, 47);
+			this->btnDaño->TabIndex = 7;
+			this->btnDaño->Text = L"Daño a Libros";
+			this->btnDaño->UseVisualStyleBackColor = false;
+			this->btnDaño->Click += gcnew System::EventHandler(this, &frmBiblioteca::btnDaño_Click);
+			// 
+			// btnFactura
+			// 
+			this->btnFactura->BackColor = System::Drawing::Color::LightSalmon;
+			this->btnFactura->FlatAppearance->BorderColor = System::Drawing::Color::Maroon;
+			this->btnFactura->FlatAppearance->BorderSize = 2;
+			this->btnFactura->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->btnFactura->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->btnFactura->ForeColor = System::Drawing::SystemColors::ControlText;
+			this->btnFactura->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"btnFactura.Image")));
+			this->btnFactura->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->btnFactura->Location = System::Drawing::Point(754, 247);
+			this->btnFactura->Name = L"btnFactura";
+			this->btnFactura->Size = System::Drawing::Size(164, 47);
+			this->btnFactura->TabIndex = 8;
+			this->btnFactura->Text = L"Factura";
+			this->btnFactura->UseVisualStyleBackColor = false;
+			this->btnFactura->Click += gcnew System::EventHandler(this, &frmBiblioteca::btnFactura_Click);
+			// 
+			// btnEmpleado
+			// 
+			this->btnEmpleado->BackColor = System::Drawing::Color::LightSalmon;
+			this->btnEmpleado->FlatAppearance->BorderColor = System::Drawing::Color::Maroon;
+			this->btnEmpleado->FlatAppearance->BorderSize = 2;
+			this->btnEmpleado->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->btnEmpleado->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->btnEmpleado->ForeColor = System::Drawing::SystemColors::ControlText;
+			this->btnEmpleado->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"btnEmpleado.Image")));
+			this->btnEmpleado->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->btnEmpleado->Location = System::Drawing::Point(754, 194);
+			this->btnEmpleado->Name = L"btnEmpleado";
+			this->btnEmpleado->Size = System::Drawing::Size(164, 47);
+			this->btnEmpleado->TabIndex = 9;
+			this->btnEmpleado->Text = L"Empleado";
+			this->btnEmpleado->UseVisualStyleBackColor = false;
+			this->btnEmpleado->Click += gcnew System::EventHandler(this, &frmBiblioteca::btnEmpleado_Click);
+			// 
+			// btnPrestamo
+			// 
+			this->btnPrestamo->BackColor = System::Drawing::Color::LightSalmon;
+			this->btnPrestamo->FlatAppearance->BorderColor = System::Drawing::Color::Maroon;
+			this->btnPrestamo->FlatAppearance->BorderSize = 2;
+			this->btnPrestamo->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->btnPrestamo->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->btnPrestamo->ForeColor = System::Drawing::SystemColors::ControlText;
+			this->btnPrestamo->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"btnPrestamo.Image")));
+			this->btnPrestamo->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->btnPrestamo->Location = System::Drawing::Point(754, 140);
+			this->btnPrestamo->Name = L"btnPrestamo";
+			this->btnPrestamo->Size = System::Drawing::Size(164, 47);
+			this->btnPrestamo->TabIndex = 10;
+			this->btnPrestamo->Text = L"Prestamo";
+			this->btnPrestamo->UseVisualStyleBackColor = false;
+			this->btnPrestamo->Click += gcnew System::EventHandler(this, &frmBiblioteca::btnPrestamo_Click);
+			// 
 			// frmBiblioteca
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
@@ -216,7 +303,11 @@ namespace PI2021IIIP3EQUIPO1 {
 			this->BackColor = System::Drawing::Color::Teal;
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->ClientSize = System::Drawing::Size(938, 594);
+			this->ClientSize = System::Drawing::Size(989, 594);
+			this->Controls->Add(this->btnPrestamo);
+			this->Controls->Add(this->btnEmpleado);
+			this->Controls->Add(this->btnFactura);
+			this->Controls->Add(this->btnDaño);
 			this->Controls->Add(this->btnSucursal);
 			this->Controls->Add(this->btnComputo);
 			this->Controls->Add(this->btnComputadora);
@@ -261,6 +352,22 @@ private: System::Void btnComputadora_Click(System::Object^ sender, System::Event
 
 private: System::Void btnSucursal_Click(System::Object^ sender, System::EventArgs^ e) {
 	frmSucursal^ formulario = gcnew frmSucursal;
+	formulario->Show();
+}
+private: System::Void btnDaño_Click(System::Object^ sender, System::EventArgs^ e) {
+	frmDaño^ formulario = gcnew frmDaño;
+	formulario->Show();
+}
+private: System::Void btnPrestamo_Click(System::Object^ sender, System::EventArgs^ e) {
+	frmPrestamo^ formulario = gcnew frmPrestamo;
+	formulario->Show(); 
+}
+private: System::Void btnEmpleado_Click(System::Object^ sender, System::EventArgs^ e) {
+	frmEmpleado^ formulario = gcnew frmEmpleado;
+	formulario->Show();
+}
+private: System::Void btnFactura_Click(System::Object^ sender, System::EventArgs^ e) {
+	frmFactura^ formulario = gcnew frmFactura;
 	formulario->Show();
 }
 };
