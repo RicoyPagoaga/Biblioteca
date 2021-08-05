@@ -420,8 +420,8 @@ namespace PI2021IIIP3EQUIPO1 {
 
 
 	private: System::Void btnMostrar_Click(System::Object^ sender, System::EventArgs^ e) {
-		frmListaPrestamo^ formulario = gcnew frmListaPrestamo;
-		formulario->Show();
+		frmListaPrestamo^ formulario = gcnew frmListaPrestamo;   
+		formulario->Show();       
 	}
 	
 };
